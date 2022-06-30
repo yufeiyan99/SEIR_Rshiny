@@ -34,15 +34,12 @@ First, we processed the dataset to calculate the number of new daily cases in ea
 
 
 ## In-App
-1. In tab Current Trajectory, users can choose a country and a cases type (confirmed, recover and death cases), the app will create a trajectory plot.
+1. In tab **Current Trajectory**, users can choose a country and a cases type (confirmed, recover and death cases), the app will create a trajectory plot.
 
-2. In tab SEIR Model, users can choose the country they want to research, set the E0 represented the
+2. In tab **SEIR Model**, users can choose the country they want to research, set the E0 represented the
 number of exposed people initially, choose the start time point to select a time that 150 days, 100 days
 and 50 days before the newest day, and input the population of the country they want to study. And
-the application will display a picture of the confirmed data in the future and a table of parameters in
-SEIR model, including contact _rate, transmission probability, infectious_period, latent _period, and
-the calculated beta = contact _rate * transmission_probability, gamma = 1 / infectious_ period, delta
-= 1 / latent period.
+the application will display a picture of the confirmed data in the future and a table of parameters in SEIR model, including contact _rate, transmission probability, infectious_period, latent _period, and the calculated beta = contact _rate * transmission_probability, gamma = 1 / infectious_ period, delta = 1 / latent period.
 
 ## Functions
 
