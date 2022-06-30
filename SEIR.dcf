@@ -1,0 +1,13 @@
+name: SEIR
+title: SEIR
+username:
+account: 2560finalseirmodel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5938649
+bundleId: 5728983
+url: https://2560finalseirmodel.shinyapps.io/SEIR/
+when: 1648261659.77851
+lastSyncTime: 1648261659.77853
+asMultiple: FALSE
+asStatic: FALSE
