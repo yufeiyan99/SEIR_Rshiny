@@ -18,21 +18,17 @@ Our shiny app provides users an overall understanding of COVID-19 Trend all over
 
 COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: https://github.com/CSSEGISandData/COVID-19
 
-This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins
-University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas
-Team and the John Hopkins University Applied Physics Lab (JHU APL).
+This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE), supported by ESRI Living Atlas Team and the John Hopkins University Applied Physics Lab (JHU APL).
 
 ## Terms of Use:
-This data set is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns
-Hopkins University on behalf of its Center for Systems Science in Engineering. Copyright Johns Hopkins
-University 2020.
+This data set is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns Hopkins University on behalf of its Center for Systems Science in Engineering. Copyright Johns Hopkins University 2020.
 
 ## Packages
-Require the following libraries: shiny, ggthemes for generating interactive dashboards; tidyverse and dplyr
-for cleaning data and manipulating our datasets; ggplot2 and cowplot for creating interactive visualizations;
-stringr for dealing with some character strings; reshape for transforming some data; knitr for providing
-text report for our simulations and statistical analysis, deSolve for solving the SEIR equations in our project.
-Model setting and mehods
+Require the following libraries: `shiny`, `ggthemes` for generating interactive dashboards; `tidyverse` for cleaning data and manipulating our datasets; `ggplot2` and `cowplot` for creating interactive visualizations;
+`stringr` for dealing with some character strings; `reshape` for transforming some data; `knitr` for providing
+text report for our simulations and statistical analysis, `deSolve` for solving the SEIR equations.
+
+## Model setting and mehods
 
 First, we processed the dataset to calculate the number of new daily cases in each country. And we used
 the SEIR model to estimate parameter values and give trending forecast of each 50-day new diagnosis in
