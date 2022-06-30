@@ -16,7 +16,7 @@ The link to the app is [here](https://2560finalseirmodel.shinyapps.io/final/).
 
   ```
 
-### Data Generating Process
+### Data Origination
 
 COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: https://github.com/CSSEGISandData/COVID-19
 
