@@ -5,7 +5,7 @@ In this project we utilize the SEIR (Susceptible-Exposed-Infectious-Removed) mod
 
 Our shiny app provides users an overall understanding of COVID-19 Trend all over the world. Through a variety of interactions in the app, users can learn about the overall trend of the COVID-19 from the start. Besides, users can fit the SEIR model by selecting some initial values and then get the fitted plot as well as the optimal parameter.
 
-The link to the app is: https://2560finalseirmodel.shinyapps.io/final/
+The link to the app is [here](https://2560finalseirmodel.shinyapps.io/final/).
 
 ## Datasets
 ``` source
