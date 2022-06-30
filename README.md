@@ -1,4 +1,4 @@
-## Exploring Optimal Vaccination Allocation
+## Exploring and Predicting COVID-19 Trajectory
 Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-COV-2). It killed millions of people and isolated or quarantined hundreds of millions. The pandemic, despite its continued existence, is infecting and killing new people around the world every day.
 
 In this project we utilize the SEIR (Susceptible-Exposed-Infectious-Removed) model to analyze the COVID-19 trends, and predict the trajectory for the future. Also, we will give the optimal parameter for the model.
@@ -22,7 +22,7 @@ COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE
 
 This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE), supported by ESRI Living Atlas Team and the John Hopkins University Applied Physics Lab (JHU APL).
 
-## Terms of Use:
+### Terms of Use:
 This data set is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns Hopkins University on behalf of its Center for Systems Science in Engineering. Copyright Johns Hopkins University 2020.
 
 ## Packages
