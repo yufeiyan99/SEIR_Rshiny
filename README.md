@@ -1,29 +1,26 @@
 ## Exploring Optimal Vaccination Allocation
-Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome
-coronavirus 2 (SARS-COV-2). It killed millions of people and isolated or quarantined hundreds of millions.
-The pandemic, despite its continued existence, is infecting and killing new people around the world every day.
+Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-COV-2). It killed millions of people and isolated or quarantined hundreds of millions. The pandemic, despite its continued existence, is infecting and killing new people around the world every day.
 
-In this project we utilize the SEIR (Susceptible-Exposed-Infectious-Removed) model to analyze the Covid-19
-trends, and predict the trajectory for the future. Also, we will give the optimal parameter for the model.
+In this project we utilize the SEIR (Susceptible-Exposed-Infectious-Removed) model to analyze the COVID-19 trends, and predict the trajectory for the future. Also, we will give the optimal parameter for the model.
 
-Our shiny app provides users a overall understanding of Covid-19 Trend all over the world. Through a variety
-of interactions in the app, users can learn about the overall trend of the Covid-19 from the start. Besides,
-users can fit the SEIR model by selecting some initial values and then get the fitted plot as well as the optimal
-parameter.
+Our shiny app provides users an overall understanding of COVID-19 Trend all over the world. Through a variety of interactions in the app, users can learn about the overall trend of the COVID-19 from the start. Besides, users can fit the SEIR model by selecting some initial values and then get the fitted plot as well as the optimal parameter.
 
 ## Datasets
-Data/
-time_series_covid19_recovered_global.cav
-time_series_covid19_confirmed_global.csv
-time_series_covid19_deaths_global.cav
+``` source
+  Data/
+  time_series_covid19_recovered_global.cav
+  time_series_covid19_confirmed_global.csv
+  time_series_covid19_deaths_global.csv
+
+  ```
 
 ### Data Generating Process
-Our dataset comes from COVID-19 Data Repository by the Center for Systems Science and Engineering
-(CSSE) at Johns Hopkins University
+
+COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: https://github.com/CSSEGISandData/COVID-19
 
 This is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins
 University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas
-Team and the John Hopkins University Applied Physics Lab (JHU APL),
+Team and the John Hopkins University Applied Physics Lab (JHU APL).
 
 ## Terms of Use:
 This data set is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns
@@ -45,7 +42,7 @@ days ahead was the second group, 101-150 days ahead was the third group. We used
 deslove package to solve our ODEs with given initial values.
 
 
-In-App
+## In-App
 1. In tab Current Trajectory, users can choose a country and a cases type (confirmed, recover and death
 cases), the app will create a trajectory plot.
 2. In tab SEIR Model, users can choose the country they want to research, set the E0 represented the
@@ -55,7 +52,8 @@ the application will display a picture of the confirmed data in the future and a
 SEIR model, including contact _rate, transmission probability, infectious_period, latent _period, and
 the calculated beta = contact _rate * transmission_probability, gamma = 1 / infectious_ period, delta
 = 1 / latent period.
-Functions
+
+## Functions
 data_processing(df)
 Return a updated version of Covid-19 daily cases data
 date_format (df_update)
