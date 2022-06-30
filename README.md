@@ -32,7 +32,7 @@ text report for our simulations and statistical analysis, `deSolve` for solving 
 
 ## Model setting and mehods
 
-First, we processed the dataset to calculate the number of new daily cases in each country. And we used the SEIR model to estimate parameter values and give trending forecast of each 50-day new diagnosis in any selected country we. In order to improve the accuracy of parameter fitting and prediction, we used the data of 150 days at most for simulation, in which 0-50 days ahead was classified as the first group, 51-100 days ahead was the second group, 101-150 days ahead was the third group. We used the function Isoda( from `deSolve` package to solve our ODEs with given initial values.
+First, we processed the dataset to calculate the number of new daily cases in each country. Also, we used the SEIR model to estimate parameter values and give trending forecast of each 50-day new diagnosis in any selected country we. In order to improve the accuracy of parameter fitting and prediction, we used the data of 150 days at most for simulation, in which 0-50 days ahead was classified as the first group, 51-100 days ahead was the second group, 101-150 days ahead was the third group. We used the function Isoda( from `deSolve` package to solve our ODEs with given initial values.
 
 
 ## In-App
